@@ -1,0 +1,146 @@
+{
+  "title": "CV (SAMPLE)",
+  "lastUpdated": "24.10.31",
+  "sections": [
+    {
+      "label": "Education",
+      "entries": [
+        {
+          "items": ["Vestibulum Euismod Ultrices (Congue)", "Suspendisse Aenean Lectus", "2023"]
+        },
+        {
+          "items": [
+            "Vestibulum Euismod Ultrices (Tincidunt)",
+            "",
+            "Aliquam Faucibus Tellus",
+            "(3 years)"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Employment",
+      "entries": [
+        {
+          "items": ["Vestibulum Ultricies", "Suspendisse Aenean Vestibulum", "2023 - 2024"]
+        },
+        {
+          "items": [
+            "Pellentesque Habitant",
+            "'Morbi Tristique Senectus'",
+            "Nunc Euismod Faucibus,",
+            "Porta Libero",
+            "2024"
+          ]
+        },
+        {
+          "items": [
+            "Volutpat Ultricies",
+            "Curabitur Fringilla Ornare,",
+            "Duis Quis",
+            "(since 2020)"
+          ]
+        },
+        {
+          "items": [
+            "Aliquam Convallis",
+            "{em}TEMPUS, TEMPUS, TEMPUS{/em}",
+            "Molestie Vulputate",
+            "Lacus Venenatis",
+            "2023"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Skills",
+      "items": [
+        "Vestibulum Ultrices",
+        "Congue Nisl",
+        "Tincidunt Euismod",
+        "Auctor Gravida",
+        "Molestie Vulputate",
+        "Tempor",
+        "Parturient",
+        "Nibh Ultricies",
+        "Aliquet Pellentesque",
+        "Rhoncus Tempor",
+        "Ullamcorper / Ornare",
+        "Porttitor Quisque",
+        "Lacinia",
+        "Bibendum Facilisis",
+        "Suspendisse Tristique",
+        "Viverra Dictum",
+        "Duis Convallis Et Congue",
+        "Semper Facilisis"
+      ]
+    },
+    {
+      "label": "Exhibitions",
+      "entries": [
+        {
+          "items": [
+            "({em}upcoming{/em}) Tincidunt TBA",
+            "Ultricies Ultricies,",
+            "Congue Nisl",
+            "2024"
+          ]
+        },
+        {
+          "items": [
+            "({em}upcoming{/em}) Vestibulum-Vitae",
+            "Auctor Ipsum,",
+            "Dictumst Ligula,",
+            "Porta Libero",
+            "2024"
+          ]
+        },
+        {
+          "items": [
+            "{em}Suspendisse{/em}",
+            "Molestie Aenean,",
+            "Facilisis Tellus,",
+            "Porta Libero",
+            "2024"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Awards",
+      "entries": [
+        {
+          "items": [
+            "{em}Tempus Egestas{/em} Nibh Vestibulum",
+            "Facilisis: Ultricies Ornare Ligula",
+            "2021"
+          ]
+        },
+        {
+          "items": ["{em}Rhoncus Auctor Ornare{/em}; Tincidunt Tristique, Porta Libero", "2020"]
+        }
+      ]
+    },
+    {
+      "label": "Press",
+      "entries": [
+        {
+          "items": [
+            "'{em}Vestibulum Inceptos Gravida{/em}', Ornare Review,",
+            "by Tincidunt Nisl",
+            "2024"
+          ]
+        },
+        {
+          "items": [
+            "'Ullamcorper Faucibus (Congue) Euismod', by Ligula Parturient, Bibendum Review Porta Libero",
+            "2023"
+          ]
+        },
+        {
+          "items": ["Dictumst Tristique, Facilisis Magazine, Edition Two, Porta Libero", "2021"]
+        }
+      ]
+    }
+  ]
+}
