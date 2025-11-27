@@ -6,7 +6,7 @@ export const profileMetadata = {
     label: 'Instagram',
   },
   description: [
-    'Art Director and Music Rights Director with 10+ years experience leading visual campaigns and managing master and publishing rights. Develops campaign visuals that support release strategy while ensuring music metadata is accurately registered and traceable across platforms for proper royalty collection.',
+    'Art Director and Music Rights Director with 10+ years leading visual campaigns and managing master and publishing rights. Leads campaign visuals that align with release strategy while ensuring accurate metadata registration and traceability for proper royalty collection.',
     '3× RIAA Gold Certifications, Billboard placements',
   ],
 }
