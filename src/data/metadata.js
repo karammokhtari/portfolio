@@ -1,6 +1,10 @@
 export const profileMetadata = {
   title: 'Art Director · Music Rights Director',
   email: 'contact@karammokhtari.com',
+  LinkedIn: {
+    url: 'https://www.linkedin.com/in/karammokhtari/',
+    label: 'LinkedIn',
+  },
   instagram: {
     url: 'https://www.instagram.com/karammokhtari/',
     label: 'Instagram',
