@@ -1,12 +1,12 @@
 export const profileMetadata = {
-  title: 'Profile (Sample)',
-  email: 'hello@example.com',
+  title: 'Art Director · Music Rights Director',
+  email: 'contact@karammokhtari.com',
   instagram: {
-    url: 'https://www.instagram.com/cargoworld/',
+    url: 'https://www.instagram.com/karammokhtari/',
     label: 'Instagram',
   },
   description: [
-    'Cras ut dictum mi. Sed quis lorem semper, elementum mauris vitae, consectetur orci. Cras volutpat eget elit porta facilisis. Aenean fermentum arcu mauris, eu faucibus nisl blandit ac. Proin eget euismod mauris. Quisque vulputate mauris quis tellus ultrices euismod. Quisque eu purus convallis, gravida tortor sed, rutrum velit. Donec placerat pretium sem vel lacinia. Maecenas elementum dolor at posuere auctor.',
-    'Nullam mollis, turpis nec varius scelerisque, est est ornare enim, sit amet facilisis ante metus posuere sapien. Curabitur nec sapien molestie, facilisis lacus eget, egestas nunc. Vivamus mattis metus placerat vehicula ultricies. Vivamus nec nisi lacus. Ut id egestas sem, sit amet cursus turpis. Sed sed congue nulla. Phasellus rhoncus tempor volutpat. Suspendisse interdum varius ante non fringilla. In et ligula lectus.',
+    'Art Director and Music Rights Director with 10+ years experience leading visual campaigns and managing master and publishing rights. Develops campaign visuals that support release strategy while ensuring music metadata is accurately registered and traceable across platforms for proper royalty collection. Specializes in resolving complex catalog conflicts, reconciling rights ownership and recovering frozen royalties for record labels, artists, producers, publishers and songwriters through systematic metadata verification and PRO/CMO registration. Contributed to three RIAA Gold certifications, multiple Billboard charting releases and significant catalog recovery across DSPs, PROs and CMOs.',
+    '3× RIAA Gold Certifications Billboard #1 & Rolling Stone chart placements Artwork featured on Times Square campaign',
   ],
 }
