@@ -902,6 +902,7 @@ button:focus-visible {
     background: #191919;
     z-index: 200;
     overflow-y: auto;
-    padding: 1rem;
+    padding: calc(2rem + env(safe-area-inset-top)) calc(2rem + env(safe-area-inset-right))
+      calc(2rem + env(safe-area-inset-bottom)) calc(2rem + env(safe-area-inset-left));
   }
 }
