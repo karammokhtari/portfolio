@@ -10,19 +10,15 @@
         "Tangier, Morocco",
         [
           {
-            "label": "Email: contact@karammokhtari.com",
+            "label": "Email",
             "url": "mailto:contact@karammokhtari.com"
-          }
-        ],
-        [
+          },
           {
-            "label": "LinkedIn: @karammokhtari",
+            "label": "LinkedIn",
             "url": "https://www.linkedin.com/in/karammokhtari/"
-          }
-        ],
-        [
+          },
           {
-            "label": "Instagram: @karammokhtari",
+            "label": "Instagram",
             "url": "https://www.instagram.com/karammokhtari/"
           }
         ],
