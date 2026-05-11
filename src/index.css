@@ -95,10 +95,15 @@ hr {
   flex-wrap: wrap;
   gap: 0.4em;
   margin-bottom: 0.4em;
+  opacity: 0.4;
+}
+
+.profile-links a {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .profile-links span {
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .profile a:hover {
