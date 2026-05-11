@@ -1,5 +1,5 @@
 export const profileMetadata = {
-  title: 'Art Director · Music Rights Director',
+  title: 'Art Director',
   email: 'contact@karammokhtari.com',
   instagram: {
     url: 'https://www.instagram.com/karammokhtari/',
@@ -10,7 +10,7 @@ export const profileMetadata = {
     label: 'LinkedIn',
   },
   description: [
-    'Art Director and Music Rights Director with 10+ years of experience leading visual campaigns and managing master and publishing rights. Leads campaign visuals that align with release strategy while ensuring accurate metadata registration and traceability for proper royalty collection.',
+    'Art Director with 10+ years of experience shaping album, single and artist campaign visuals for independent and major entertainment releases. Leads visual direction across release strategy, identity, packaging and campaign deliverables.',
     '3× RIAA Gold Certifications, Billboard placements',
   ],
 }
