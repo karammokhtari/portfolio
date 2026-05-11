@@ -571,6 +571,47 @@ button:focus-visible {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.cv-skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-skill-list li {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.cv-skill-list li::before {
+  content: '*';
+  margin-right: 0.5em;
+  opacity: 0.45;
+}
+
+.cv-project-line {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.45rem;
+}
+
+.cv-project-artist {
+  color: rgba(255, 255, 255, 0.85);
+  margin-right: 0.6em;
+}
+
+.cv-project-title {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.cv-education-item .cv-line {
+  margin-bottom: 0;
+}
+
+.cv-education-item .cv-meta {
+  margin-bottom: 0;
+}
+
 .cv-text-link {
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;

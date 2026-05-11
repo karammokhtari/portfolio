@@ -42,7 +42,7 @@
         {
           "items": [
             "Art Director | Independent Practice",
-            "Tangier, Morocco | June 2017 – Present",
+            "Tangier, Morocco | June 2017 - Present",
             "Directed visual campaigns for albums, singles and artist projects across R&B, jazz, pop and North African music.",
             "Led visual direction for Tink releases including Winter's Diary 5, Heat of The Moment, A Gift and A Curse, Hopeless Romantic and Voicemails, supporting major streaming visibility, playlist placement and chart performance.",
             "Directed visual work for Damien Escobar's Gemini, supporting the Billboard #1 Smooth Jazz Airplay single Taboo.",
@@ -53,7 +53,7 @@
         {
           "items": [
             "Art Director | Paramount Global (Contract)",
-            "Remote | January 2022 – December 2023",
+            "Remote | January 2022 - December 2023",
             "Directed visual deliverables for Noggin, maintaining consistency with brand requirements across digital and broadcast formats.",
             "Coordinated with production and marketing teams to prepare assets for rollout and technical delivery."
           ]
@@ -63,18 +63,50 @@
     {
       "label": "Selected Projects",
       "items": [
-        "Tink — Winter's Diary 5, Heat of The Moment, A Gift and A Curse, Hopeless Romantic, Voicemails",
-        "Damien Escobar — Gemini",
-        "Jackie Cruz — Lucia Ocho, Hija de Chavez",
-        "Shayfeen, Fnaire, Aminux, VAN — AFRIMA-recognized releases"
+        {
+          "artist": "Tink",
+          "projects": "Winter's Diary 5, Heat of The Moment, A Gift and A Curse, Hopeless Romantic, Voicemails"
+        },
+        {
+          "artist": "Damien Escobar",
+          "projects": "Gemini"
+        },
+        {
+          "artist": "Jackie Cruz",
+          "projects": "Lucia Ocho, Hija de Chavez"
+        },
+        {
+          "artist": "Shayfeen",
+          "projects": "Wach Kayn Maydar"
+        },
+        {
+          "artist": "Fnaire",
+          "projects": "Siri Siri"
+        },
+        {
+          "artist": "Aminux",
+          "projects": "Ghanjibo"
+        },
+        {
+          "artist": "VAN",
+          "projects": "Live Your Dream"
+        }
       ]
     },
     {
       "label": "Skills",
       "items": [
-        "Art Direction • Release Strategy • Album and Single Campaigns",
-        "Visual Identity • Packaging • Campaign Deliverable Oversight",
-        "Digital Marketing Assets • Out-of-Home Visuals • Cross-Functional Collaboration"
+        [
+          "Art Direction",
+          "Release Strategy",
+          "Album and Single Campaigns",
+          "Visual Identity",
+          "Packaging",
+          "Campaign Deliverable Oversight",
+          "Digital Marketing Assets",
+          "Out-of-Home Visuals",
+          "Cross-Functional Collaboration"
+        ]
       ]
     },
     {
@@ -98,7 +130,12 @@
     },
     {
       "label": "Education",
-      "items": ["Associate of Arts, Computer Graphics | ISMONTIC (OFPPT)"]
+      "items": [
+        {
+          "title": "Associate of Arts, Computer Graphics",
+          "meta": "ISMONTIC (OFPPT)"
+        }
+      ]
     },
     {
       "label": "Languages",
