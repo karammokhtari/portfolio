@@ -125,10 +125,6 @@ hr {
   opacity: 0.85;
 }
 
-.profile p:last-of-type {
-  opacity: 0.4;
-}
-
 .profile-achievements {
   list-style: none;
   margin: 1em 0;
@@ -515,12 +511,14 @@ button:focus-visible {
 }
 
 .cv-name {
-  margin-bottom: 0.35rem;
+  line-height: 1.35;
+  margin-bottom: 0;
   opacity: 0.95;
 }
 
 .cv-role {
-  margin-bottom: 0.35rem;
+  line-height: 1.35;
+  margin-bottom: 0;
   opacity: 0.85;
 }
 
@@ -533,7 +531,8 @@ button:focus-visible {
 }
 
 .cv-meta {
-  margin-bottom: 0.5rem;
+  line-height: 1.35;
+  margin-bottom: 0;
 }
 
 .cv-entry {
@@ -563,7 +562,8 @@ button:focus-visible {
 }
 
 .cv-contact-line {
-  margin-bottom: 0.25rem;
+  line-height: 1.35;
+  margin-bottom: 0;
   opacity: 0.45;
 }
 
