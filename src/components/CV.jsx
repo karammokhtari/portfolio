@@ -19,6 +19,21 @@ function CV({ onClose }) {
   const renderItem = (item, itemIndex, sectionLabel) => {
     const key = `${sectionLabel}-item-${itemIndex}`
 
+    if (Array.isArray(item)) {
+      return (
+        <p key={key} className="cv-line">
+          {item.map((link, linkIndex) => (
+            <span key={link.url}>
+              {linkIndex > 0 && ' • '}
+              <a href={link.url} target="_blank" rel="noreferrer" className="cv-text-link">
+                {link.label}
+              </a>
+            </span>
+          ))}
+        </p>
+      )
+    }
+
     if (item === '') {
       return <div key={key} className="cv-spacer" />
     }

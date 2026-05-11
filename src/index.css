@@ -523,6 +523,15 @@ button:focus-visible {
   margin-bottom: 0;
 }
 
+.cv-text-link {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+
+.cv-text-link:hover {
+  opacity: 0.6;
+}
+
 .cv-spacer {
   height: 1rem;
 }

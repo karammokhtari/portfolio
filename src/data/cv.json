@@ -66,8 +66,20 @@
     {
       "label": "Press",
       "items": [
-        "Billboard • Forbes • The FADER • Pitchfork • COMPLEX • VIBE • REVOLT",
-        "Akhbarona • Resident • Gigwise"
+        [
+          {
+            "label": "Akhbarona",
+            "url": "https://www.akhbarona.com/culture/417562.html"
+          },
+          {
+            "label": "Resident",
+            "url": "https://resident.com/resource-guide/2025/12/19/the-global-story-of-karam-mokhtari-shaping-the-art-and-rights-of-modern-music"
+          },
+          {
+            "label": "Gigwise",
+            "url": "https://www.gigwise.com/karam-mokhtari-bridging-art-direction-and-music-rights-across-international-markets/"
+          }
+        ]
       ]
     },
     {
