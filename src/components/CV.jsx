@@ -2,6 +2,9 @@ import appMetadata from '../data/app.metadata.json'
 import cvData from '../data/cv.json'
 
 function CV({ onClose }) {
+  const renderLine = (item, key) =>
+    item === '' ? <br key={key} /> : <div key={key}>{parseEmphasis(item)}</div>
+
   const parseEmphasis = (text) => {
     if (!text) return null
     if (!text.includes('{em}')) return text
@@ -34,21 +37,15 @@ function CV({ onClose }) {
             <div className="cv-section-label">{section.label}</div>
             <div className="cv-section-content">
               {section.items
-                ? // Skills section - just items
-                  section.items.map((item) => <div key={item}>{parseEmphasis(item)}</div>)
-                : // Other sections - entries with items
-                  section.entries.map((entry, entryIndex) => (
+                ? section.items.map((item, itemIndex) =>
+                    renderLine(item, `${section.label}-item-${itemIndex}`),
+                  )
+                : section.entries.map((entry, entryIndex) => (
                     <div key={`${section.label}-entry-${entryIndex}`}>
                       {entryIndex > 0 && <br />}
                       <div className="cv-entry">
                         {entry.items.map((item) =>
-                          item === '' ? (
-                            <br key={`${section.label}-${entryIndex}-br`} />
-                          ) : (
-                            <div key={`${section.label}-${entryIndex}-${item.substring(0, 20)}`}>
-                              {parseEmphasis(item)}
-                            </div>
-                          ),
+                          renderLine(item, `${section.label}-${entryIndex}-${item}`),
                         )}
                       </div>
                     </div>
