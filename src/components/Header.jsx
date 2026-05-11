@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react'
+import appMetadata from '../data/app.metadata.json'
 import Clock from './Clock'
 import CV from './CV'
 import Profile from './Profile'
-import { profileMetadata } from '../data/metadata'
-import appMetadata from '../data/app.metadata.json'
 
 function Header({ showCV, setShowCV }) {
   const [hasTransitioned, setHasTransitioned] = useState(false)
@@ -17,7 +16,6 @@ function Header({ showCV, setShowCV }) {
     setShowCV(false)
   }
 
-  // Handle Escape key to close CV
   useEffect(() => {
     if (!showCV) return
 
@@ -35,7 +33,6 @@ function Header({ showCV, setShowCV }) {
 
   return (
     <>
-      {/* Desktop Header */}
       <div className="header-desktop">
         {!showCV ? (
           <div className={hasTransitioned ? 'slide-in-right' : ''}>
@@ -53,7 +50,6 @@ function Header({ showCV, setShowCV }) {
         )}
       </div>
 
-      {/* Mobile Header */}
       <div className="header-mobile">
         {!showCV ? (
           <>
@@ -62,17 +58,7 @@ function Header({ showCV, setShowCV }) {
               <Clock />
             </div>
             <hr />
-            <div className="profile">
-              <div className="profile-title">{profileMetadata.title}</div>
-              <a href={`mailto:${profileMetadata.email}`}>{profileMetadata.email}</a>
-              <a href={profileMetadata.instagram.url} target="_blank" rel="noopener noreferrer">
-                {profileMetadata.instagram.label}
-              </a>
-              <p>{profileMetadata.description[0]}</p>
-              <button type="button" onClick={handleCVClick} className="cv-link">
-                CV <span className="arrow">→</span>
-              </button>
-            </div>
+            <Profile onCVClick={handleCVClick} />
           </>
         ) : (
           <CV onClose={handleClose} />

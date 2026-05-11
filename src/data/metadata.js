@@ -11,6 +11,12 @@ export const profileMetadata = {
   },
   description: [
     'Art Director with 10+ years of experience shaping album, single and artist campaign visuals for independent and major entertainment releases. Leads visual direction across release strategy, identity, packaging and campaign deliverables.',
-    '1x RIAA Platinum | 2x RIAA Gold | 5x AFRIMA (Africa) | Billboard Top 10 | Rolling Stone #1',
+  ],
+  achievements: [
+    '1x RIAA Platinum',
+    '2x RIAA Gold',
+    '5x AFRIMA (Africa)',
+    'Billboard Top 10',
+    'Rolling Stone #1',
   ],
 }

@@ -13,6 +13,12 @@ function Profile({ onCVClick }) {
         <p key={paragraph.substring(0, 20)}>{paragraph}</p>
       ))}
 
+      <ul className="profile-achievements">
+        {profileMetadata.achievements.map((achievement) => (
+          <li key={achievement}>{achievement}</li>
+        ))}
+      </ul>
+
       <button type="button" onClick={onCVClick} className="cv-link">
         CV <span className="arrow">→</span>
       </button>
