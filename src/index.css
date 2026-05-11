@@ -119,6 +119,7 @@ hr {
   line-height: 1.5;
   margin-top: 1em;
   margin-bottom: 1em;
+  max-width: 92%;
 }
 
 .profile p:first-of-type {
@@ -450,6 +451,7 @@ button:focus-visible {
 /* CV Styles */
 .cv {
   width: 100%;
+  padding-right: 2rem;
 }
 
 .cv-header {
@@ -556,8 +558,7 @@ button:focus-visible {
 .cv-line {
   line-height: 1.6;
   margin-bottom: 0.85rem;
-  text-align: justify;
-  text-wrap: pretty;
+  text-align: left;
 }
 
 .cv-line:last-child {
@@ -669,6 +670,10 @@ button:focus-visible {
     width: 100%;
     padding: 1.5rem;
     padding-bottom: 5rem;
+  }
+
+  .profile p {
+    max-width: 100%;
   }
 
   .footer-mobile {
