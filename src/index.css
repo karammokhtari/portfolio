@@ -193,6 +193,12 @@ hr {
   align-items: flex-start;
 }
 
+.project-header::after {
+  content: '';
+  flex: 0 0 2rem;
+  margin-left: 1rem;
+}
+
 .project-image {
   width: 41.666%;
   aspect-ratio: 3 / 2;
@@ -681,6 +687,10 @@ button:focus-visible {
 
   .project-header {
     flex-direction: column;
+  }
+
+  .project-header::after {
+    display: none;
   }
 
   .project-image {
