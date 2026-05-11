@@ -571,18 +571,19 @@ button:focus-visible {
   color: rgba(255, 255, 255, 0.85);
 }
 
-.cv-project-line {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 0.45rem;
+.cv-project {
+  margin-bottom: 1rem;
 }
 
 .cv-project-artist {
+  font-size: 1rem;
+  line-height: 1.6;
   color: rgba(255, 255, 255, 0.85);
-  margin-right: 0.6em;
 }
 
 .cv-project-title {
+  font-size: 1rem;
+  line-height: 1.6;
   color: rgba(255, 255, 255, 0.45);
 }
 

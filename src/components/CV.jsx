@@ -46,11 +46,17 @@ function CV({ onClose }) {
     }
 
     if (typeof item === 'object' && item.artist && item.projects) {
+      const projects = Array.isArray(item.projects) ? item.projects : [item.projects]
+
       return (
-        <p key={key} className="cv-project-line">
-          <span className="cv-project-artist">{item.artist}</span>
-          <span className="cv-project-title">{item.projects}</span>
-        </p>
+        <div key={key} className="cv-project">
+          <div className="cv-project-artist">{item.artist}</div>
+          {projects.map((project) => (
+            <div key={project} className="cv-project-title">
+              {project}
+            </div>
+          ))}
+        </div>
       )
     }
 

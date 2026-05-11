@@ -65,31 +65,37 @@
       "items": [
         {
           "artist": "Tink",
-          "projects": "Heat of The Moment, A Gift and A Curse, Hopeless Romantic, Voicemails"
+          "projects": [
+            "Fuck, Marry, Kill",
+            "Heat of The Moment",
+            "A Gift and A Curse",
+            "Hopeless Romantic",
+            "Voicemails"
+          ]
         },
         {
           "artist": "Damien Escobar",
-          "projects": "Gemini"
+          "projects": ["Gemini"]
         },
         {
           "artist": "Jackie Cruz",
-          "projects": "Lucia Ocho, Hija de Chavez"
+          "projects": ["Lucia Ocho", "Hija de Chavez"]
         },
         {
           "artist": "Shayfeen",
-          "projects": "Wach Kayn Maydar"
+          "projects": ["Wach Kayn Maydar"]
         },
         {
           "artist": "Fnaire",
-          "projects": "Siri Siri"
+          "projects": ["Siri Siri"]
         },
         {
           "artist": "Aminux",
-          "projects": "Ghanjibo"
+          "projects": ["Ghanjibo"]
         },
         {
           "artist": "VAN",
-          "projects": "Live Your Dream"
+          "projects": ["Live Your Dream"]
         }
       ]
     },
