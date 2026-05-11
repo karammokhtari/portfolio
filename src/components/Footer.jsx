@@ -15,18 +15,20 @@ function Footer({ showCV, selectedProject, setSelectedProject }) {
 
   return (
     <>
-      {/* Desktop Footer */}
       {!showCV && (
         <div className="footer-desktop">
           <div className="copyright">{appMetadata.copyright}</div>
         </div>
       )}
 
-      {/* Mobile Footer */}
       <div className="footer-mobile">
-        <button type="button" onClick={handleIndexClick}>
-          INDEX
-        </button>
+        {selectedProject ? (
+          <button type="button" onClick={handleIndexClick}>
+            INDEX
+          </button>
+        ) : (
+          <span />
+        )}
         <button type="button" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <span className="arrow">↑</span>TOP
         </button>

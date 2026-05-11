@@ -669,7 +669,7 @@ button:focus-visible {
     left: 0;
     right: 0;
     background: #191919;
-    padding: 1rem;
+    padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom));
     border-top: 1px solid rgba(255, 255, 255, 0.15);
     justify-content: space-between;
     z-index: 100;
