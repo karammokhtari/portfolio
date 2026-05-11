@@ -438,6 +438,11 @@ button:focus-visible {
 .cv-title {
   font-size: 1rem;
   opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+.cv-section-wrap {
+  margin: 0;
 }
 
 .cv-section {
@@ -445,10 +450,14 @@ button:focus-visible {
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.55;
+  padding: 2rem 0;
 }
 
 .cv-section-label {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
   opacity: 0.85;
 }
 
@@ -456,14 +465,73 @@ button:focus-visible {
   opacity: 0.85;
 }
 
-.cv-entry div {
+.cv-name,
+.cv-role,
+.cv-entry-title,
+.cv-entry-meta,
+.cv-line {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.cv-name {
+  margin-bottom: 0.35rem;
+  opacity: 0.95;
+}
+
+.cv-role {
+  margin-bottom: 0.35rem;
+  opacity: 0.85;
+}
+
+.cv-meta,
+.cv-entry-meta {
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 1.5;
+  opacity: 0.45;
+}
+
+.cv-meta {
+  margin-bottom: 1.25rem;
+}
+
+.cv-entry {
+  margin-bottom: 2rem;
+}
+
+.cv-entry:last-child {
+  margin-bottom: 0;
+}
+
+.cv-entry-title {
+  margin-bottom: 0.25rem;
+  opacity: 0.95;
+}
+
+.cv-entry-meta {
+  margin-bottom: 1rem;
+}
+
+.cv-line {
+  line-height: 1.6;
+  margin-bottom: 0.85rem;
+}
+
+.cv-line:last-child {
+  margin-bottom: 0;
+}
+
+.cv-spacer {
+  height: 1rem;
 }
 
 .cv-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .cv-updated {

@@ -2,9 +2,6 @@ import appMetadata from '../data/app.metadata.json'
 import cvData from '../data/cv.json'
 
 function CV({ onClose }) {
-  const renderLine = (item, key) =>
-    item === '' ? <br key={key} /> : <div key={key}>{parseEmphasis(item)}</div>
-
   const parseEmphasis = (text) => {
     if (!text) return null
     if (!text.includes('{em}')) return text
@@ -19,6 +16,74 @@ function CV({ onClose }) {
     })
   }
 
+  const renderItem = (item, itemIndex, sectionLabel) => {
+    const key = `${sectionLabel}-item-${itemIndex}`
+
+    if (item === '') {
+      return <div key={key} className="cv-spacer" />
+    }
+
+    if (sectionLabel === 'Profile' && itemIndex === 0) {
+      return (
+        <h1 key={key} className="cv-name">
+          {parseEmphasis(item)}
+        </h1>
+      )
+    }
+
+    if (sectionLabel === 'Profile' && itemIndex === 1) {
+      return (
+        <h2 key={key} className="cv-role">
+          {parseEmphasis(item)}
+        </h2>
+      )
+    }
+
+    if (sectionLabel === 'Profile' && itemIndex === 2) {
+      return (
+        <p key={key} className="cv-meta">
+          {parseEmphasis(item)}
+        </p>
+      )
+    }
+
+    return (
+      <p key={key} className="cv-line">
+        {parseEmphasis(item)}
+      </p>
+    )
+  }
+
+  const renderEntryItem = (item, itemIndex, sectionLabel, entryIndex) => {
+    const key = `${sectionLabel}-entry-${entryIndex}-item-${itemIndex}`
+
+    if (item === '') {
+      return <div key={key} className="cv-spacer" />
+    }
+
+    if (itemIndex === 0) {
+      return (
+        <h3 key={key} className="cv-entry-title">
+          {parseEmphasis(item)}
+        </h3>
+      )
+    }
+
+    if (itemIndex === 1) {
+      return (
+        <h4 key={key} className="cv-entry-meta">
+          {parseEmphasis(item)}
+        </h4>
+      )
+    }
+
+    return (
+      <p key={key} className="cv-line">
+        {parseEmphasis(item)}
+      </p>
+    )
+  }
+
   return (
     <div className="cv">
       <div className="cv-header">
@@ -29,42 +94,27 @@ function CV({ onClose }) {
       </div>
       <hr />
       <div className="cv-title">{cvData.title}</div>
-      <br />
 
       {cvData.sections.map((section, sectionIndex) => (
-        <div key={section.label}>
+        <section key={section.label} className="cv-section-wrap">
           <div className="cv-section">
-            <div className="cv-section-label">{section.label}</div>
+            <h2 className="cv-section-label">{section.label}</h2>
             <div className="cv-section-content">
               {section.items
-                ? section.items.map((item, itemIndex) =>
-                    renderLine(item, `${section.label}-item-${itemIndex}`),
-                  )
+                ? section.items.map((item, itemIndex) => renderItem(item, itemIndex, section.label))
                 : section.entries.map((entry, entryIndex) => (
-                    <div key={`${section.label}-entry-${entryIndex}`}>
-                      {entryIndex > 0 && <br />}
-                      <div className="cv-entry">
-                        {entry.items.map((item) =>
-                          renderLine(item, `${section.label}-${entryIndex}-${item}`),
-                        )}
-                      </div>
-                    </div>
+                    <article key={`${section.label}-entry-${entryIndex}`} className="cv-entry">
+                      {entry.items.map((item, itemIndex) =>
+                        renderEntryItem(item, itemIndex, section.label, entryIndex),
+                      )}
+                    </article>
                   ))}
             </div>
           </div>
-          <br />
-          <br />
-          <br />
           {sectionIndex < cvData.sections.length - 1 && <hr />}
-        </div>
+        </section>
       ))}
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
-      {/* Footer */}
       <div className="cv-footer">
         <div className="cv-updated">Last Updated {cvData.lastUpdated}</div>
         <button type="button" onClick={onClose} className="close-link">
