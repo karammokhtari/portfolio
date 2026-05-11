@@ -240,12 +240,6 @@ hr {
   opacity: 0.7;
 }
 
-.project-icon {
-  font-size: 2rem;
-  opacity: 0.4;
-  margin-left: 1rem;
-}
-
 /* Footer Desktop */
 .footer-desktop {
   position: fixed;

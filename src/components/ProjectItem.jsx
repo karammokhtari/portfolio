@@ -19,7 +19,6 @@ function ProjectItem({ project, onProjectClick }) {
             Read more…
           </button>
         </div>
-        <div className="project-icon">⌘</div>
       </div>
     </div>
   )
