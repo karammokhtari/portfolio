@@ -7,7 +7,25 @@
       "items": [
         "Karam Mokhtari",
         "Art Director",
-        "Tangier, Morocco • karam@karammokhtari.com • linkedin.com/in/karammokhtari/",
+        "Tangier, Morocco",
+        [
+          {
+            "label": "Email: contact@karammokhtari.com",
+            "url": "mailto:contact@karammokhtari.com"
+          }
+        ],
+        [
+          {
+            "label": "LinkedIn: @karammokhtari",
+            "url": "https://www.linkedin.com/in/karammokhtari/"
+          }
+        ],
+        [
+          {
+            "label": "Instagram: @karammokhtari",
+            "url": "https://www.instagram.com/karammokhtari/"
+          }
+        ],
         "",
         "Art Director with 10+ years of hands-on experience shaping album, single and artist campaign visuals for independent and major entertainment releases.",
         "Leads visual direction across release strategy, identity, packaging and campaign deliverables, helping projects build visibility across streaming platforms, press, billboards and digital marketing."

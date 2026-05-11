@@ -87,9 +87,18 @@ hr {
 .profile a {
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
-  display: block;
-  margin-bottom: 0.4em;
   font-size: 1rem;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.profile-links span {
+  opacity: 0.4;
 }
 
 .profile a:hover {

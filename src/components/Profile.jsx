@@ -4,10 +4,17 @@ function Profile({ onCVClick }) {
   return (
     <div className="profile">
       <div className="profile-title">{profileMetadata.title}</div>
-      <a href={`mailto:${profileMetadata.email}`}>{profileMetadata.email}</a>
-      <a href={profileMetadata.instagram.url} target="_blank" rel="noopener noreferrer">
-        {profileMetadata.instagram.label}
-      </a>
+      <div className="profile-links">
+        <a href={`mailto:${profileMetadata.email}`}>Email</a>
+        <span>•</span>
+        <a href={profileMetadata.linkedin.url} target="_blank" rel="noopener noreferrer">
+          {profileMetadata.linkedin.label}
+        </a>
+        <span>•</span>
+        <a href={profileMetadata.instagram.url} target="_blank" rel="noopener noreferrer">
+          {profileMetadata.instagram.label}
+        </a>
+      </div>
 
       {profileMetadata.description.map((paragraph) => (
         <p key={paragraph.substring(0, 20)}>{paragraph}</p>
