@@ -45,6 +45,14 @@ function CV({ onClose }) {
       )
     }
 
+    if (sectionLabel === 'Skills') {
+      return (
+        <p key={key} className="cv-skill-line">
+          {parseEmphasis(item)}
+        </p>
+      )
+    }
+
     if (typeof item === 'object' && item.artist && item.projects) {
       const projects = Array.isArray(item.projects) ? item.projects : [item.projects]
 
