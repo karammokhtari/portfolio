@@ -2,6 +2,8 @@ import appMetadata from '../data/app.metadata.json'
 import cvData from '../data/cv.json'
 
 function CV({ onClose }) {
+  const stackedSections = new Set(['Skills', 'Languages'])
+
   const parseEmphasis = (text) => {
     if (!text) return null
     if (!text.includes('{em}')) return text
@@ -36,12 +38,20 @@ function CV({ onClose }) {
       )
     }
 
+    if (stackedSections.has(sectionLabel)) {
+      return (
+        <span key={key} className="cv-text-row">
+          {parseEmphasis(item)}
+        </span>
+      )
+    }
+
     if (typeof item === 'object' && item.language && item.level) {
       return (
-        <p key={key} className="cv-language-line">
+        <span key={key} className="cv-language-line">
           <span className="cv-language-name">{item.language}</span>
           <span className="cv-language-level">({item.level})</span>
-        </p>
+        </span>
       )
     }
 
@@ -150,15 +160,25 @@ function CV({ onClose }) {
           <div className="cv-section">
             <h2 className="cv-section-label">{section.label}</h2>
             <div className="cv-section-content">
-              {section.items
-                ? section.items.map((item, itemIndex) => renderItem(item, itemIndex, section.label))
-                : section.entries.map((entry, entryIndex) => (
-                    <article key={`${section.label}-entry-${entryIndex}`} className="cv-entry">
-                      {entry.items.map((item, itemIndex) =>
-                        renderEntryItem(item, itemIndex, section.label, entryIndex),
-                      )}
-                    </article>
-                  ))}
+              {section.items ? (
+                stackedSections.has(section.label) ? (
+                  <div className="cv-text-block">
+                    {section.items.map((item, itemIndex) =>
+                      renderItem(item, itemIndex, section.label),
+                    )}
+                  </div>
+                ) : (
+                  section.items.map((item, itemIndex) => renderItem(item, itemIndex, section.label))
+                )
+              ) : (
+                section.entries.map((entry, entryIndex) => (
+                  <article key={`${section.label}-entry-${entryIndex}`} className="cv-entry">
+                    {entry.items.map((item, itemIndex) =>
+                      renderEntryItem(item, itemIndex, section.label, entryIndex),
+                    )}
+                  </article>
+                ))
+              )}
             </div>
           </div>
           {sectionIndex < cvData.sections.length - 1 && <hr />}

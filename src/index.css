@@ -556,9 +556,18 @@ button:focus-visible {
 }
 
 .cv-line {
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 0.85rem;
   text-align: left;
+}
+
+.cv-text-block {
+  line-height: 1.5;
+}
+
+.cv-text-row {
+  display: block;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .cv-line:last-child {
@@ -582,14 +591,14 @@ button:focus-visible {
 
 .cv-project-artist {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: rgba(255, 255, 255, 0.85);
   text-align: left;
 }
 
 .cv-project-title {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: rgba(255, 255, 255, 0.45);
   text-align: left;
 }
@@ -603,9 +612,8 @@ button:focus-visible {
 }
 
 .cv-language-line {
+  display: block;
   font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 0.25rem;
   text-align: left;
 }
 
