@@ -556,6 +556,8 @@ button:focus-visible {
 .cv-line {
   line-height: 1.6;
   margin-bottom: 0.85rem;
+  text-align: justify;
+  text-wrap: pretty;
 }
 
 .cv-line:last-child {
@@ -566,6 +568,7 @@ button:focus-visible {
   line-height: 1.35;
   margin-bottom: 0;
   opacity: 0.45;
+  text-align: left;
 }
 
 .cv-contact-line .cv-text-link {
@@ -580,12 +583,14 @@ button:focus-visible {
   font-size: 1rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.85);
+  text-align: left;
 }
 
 .cv-project-title {
   font-size: 1rem;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.45);
+  text-align: left;
 }
 
 .cv-education-item .cv-line {
@@ -600,6 +605,7 @@ button:focus-visible {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 0.25rem;
+  text-align: left;
 }
 
 .cv-language-name {
@@ -616,6 +622,7 @@ button:focus-visible {
   font-size: 1rem;
   line-height: 1.35;
   margin-bottom: 0;
+  text-align: left;
 }
 
 .cv-text-link {
@@ -721,24 +728,6 @@ button:focus-visible {
 
   .cv-section-label {
     opacity: 0.55;
-  }
-
-  .cv-line {
-    text-align: justify;
-    text-wrap: pretty;
-  }
-
-  .cv-name,
-  .cv-role,
-  .cv-meta,
-  .cv-contact-line,
-  .cv-entry-title,
-  .cv-entry-meta,
-  .cv-project-artist,
-  .cv-project-title,
-  .cv-skill-line,
-  .cv-language-line {
-    text-align: left;
   }
 
   .cv-footer {
