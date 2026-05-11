@@ -494,6 +494,7 @@ button:focus-visible {
   font-weight: 400;
   line-height: 1.4;
   opacity: 0.85;
+  text-transform: uppercase;
 }
 
 .cv-section-content {
@@ -653,12 +654,13 @@ button:focus-visible {
   .header-mobile {
     display: block;
     background: #191919;
-    padding: 1rem;
+    padding: 1.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
 
   .main-content {
     width: 100%;
+    padding: 1.5rem;
     padding-bottom: 5rem;
   }
 
@@ -713,7 +715,30 @@ button:focus-visible {
 
   .cv-section {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.25rem;
+    padding: 2.5rem 0;
+  }
+
+  .cv-section-label {
+    opacity: 0.55;
+  }
+
+  .cv-line {
+    text-align: justify;
+    text-wrap: pretty;
+  }
+
+  .cv-name,
+  .cv-role,
+  .cv-meta,
+  .cv-contact-line,
+  .cv-entry-title,
+  .cv-entry-meta,
+  .cv-project-artist,
+  .cv-project-title,
+  .cv-skill-line,
+  .cv-language-line {
+    text-align: left;
   }
 
   .cv-footer {
