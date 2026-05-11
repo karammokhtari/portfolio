@@ -1,146 +1,190 @@
 {
-  "title": "CV (SAMPLE)",
-  "lastUpdated": "30.11.25",
+  "title": "CV",
+  "lastUpdated": "11.05.26",
   "sections": [
     {
-      "label": "Education",
-      "entries": [
-        {
-          "items": ["Vestibulum Euismod Ultrices (Congue)", "Suspendisse Aenean Lectus", "2023"]
-        },
-        {
-          "items": [
-            "Vestibulum Euismod Ultrices (Tincidunt)",
-            "",
-            "Aliquam Faucibus Tellus",
-            "(3 years)"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Employment",
-      "entries": [
-        {
-          "items": ["Vestibulum Ultricies", "Suspendisse Aenean Vestibulum", "2023 - 2024"]
-        },
-        {
-          "items": [
-            "Pellentesque Habitant",
-            "'Morbi Tristique Senectus'",
-            "Nunc Euismod Faucibus,",
-            "Porta Libero",
-            "2024"
-          ]
-        },
-        {
-          "items": [
-            "Volutpat Ultricies",
-            "Curabitur Fringilla Ornare,",
-            "Duis Quis",
-            "(since 2020)"
-          ]
-        },
-        {
-          "items": [
-            "Aliquam Convallis",
-            "{em}TEMPUS, TEMPUS, TEMPUS{/em}",
-            "Molestie Vulputate",
-            "Lacus Venenatis",
-            "2023"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Skills",
+      "label": "Header",
       "items": [
-        "Vestibulum Ultrices",
-        "Congue Nisl",
-        "Tincidunt Euismod",
-        "Auctor Gravida",
-        "Molestie Vulputate",
-        "Tempor",
-        "Parturient",
-        "Nibh Ultricies",
-        "Aliquet Pellentesque",
-        "Rhoncus Tempor",
-        "Ullamcorper / Ornare",
-        "Porttitor Quisque",
-        "Lacinia",
-        "Bibendum Facilisis",
-        "Suspendisse Tristique",
-        "Viverra Dictum",
-        "Duis Convallis Et Congue",
-        "Semper Facilisis"
+        "Karam Mokhtari",
+        "Art Director • Music Rights Director",
+        "Tangier, Morocco • karam@karammokhtari.com • +212 629 599 590 • linkedin.com/in/karammokhtari/"
       ]
     },
     {
-      "label": "Exhibitions",
+      "label": "Professional Summary",
+      "items": [
+        "Art Director and Music Rights Director with 10+ years of hands-on experience driving the creative and rights foundation behind releases that achieved major commercial and critical success. Leading the visual direction of albums and singles and shaping how projects are introduced to the market, influencing audience reach, visibility and overall impact.",
+        "As a Music Rights Director, strengthening catalog integrity by correcting metadata, verifying ownership, resolving conflicts, recovering royalties and establishing rights frameworks across DSPs, PROs and CMOs, while modernizing catalogs for nationally recognized artists and improving accuracy and long-term royalty flow."
+      ]
+    },
+    {
+      "label": "Key Achievements & Skills",
       "entries": [
         {
           "items": [
-            "({em}upcoming{/em}) Tincidunt TBA",
-            "Ultricies Ultricies,",
-            "Congue Nisl",
-            "2024"
+            "Art Direction",
+            "• Contributed to two RIAA Gold certifications for CAP and Cut It Out, and one RIAA Platinum certification for Bottom B**** by directing release visuals that supported campaign rollout and audience engagement.",
+            "• Visual direction presented on a Times Square billboard and recognized by VIBE in The 21 Best R&B Albums of 2021.",
+            "• Directed visual strategy for releases achieving Billboard positions including #1 Smooth Jazz Airplay, #6 Heatseekers and #11 Hot R&B Songs.",
+            "• Directed album and single visual campaigns used in international digital marketing, playlist visibility and out-of-home advertising.",
+            "Skills: Art Direction • Release Strategy • Album and Single Campaigns • Visual Identity • Packaging • Campaign Deliverable Oversight • Cross Functional Collaboration"
           ]
         },
         {
           "items": [
-            "({em}upcoming{/em}) Vestibulum-Vitae",
-            "Auctor Ipsum,",
-            "Dictumst Ligula,",
-            "Porta Libero",
-            "2024"
-          ]
-        },
-        {
-          "items": [
-            "{em}Suspendisse{/em}",
-            "Molestie Aenean,",
-            "Facilisis Tellus,",
-            "Porta Libero",
-            "2024"
+            "Music Rights Direction",
+            "• Recovered unpaid royalties by correcting metadata, resolving ownership discrepancies and aligning catalog entries across PROs and CMOs.",
+            "• Restored accurate rights attribution for works distributed without authorization, protecting artist revenue.",
+            "• Managed Content ID claims, takedowns and rights protection across major DSPs.",
+            "• Invited as Industry Advisor for L'Boulevard Music Festival to support catalog verification, rights structure and metadata readiness.",
+            "• Developed catalog workflows that prevent metadata loss, maintain identifier accuracy and strengthen long-term catalog monetization.",
+            "Skills: Master and Publishing Rights Administration • Metadata Reconciliation (ISRC, ISWC, UPC) • PRO and CMO Administration • Catalog Management • Royalty Recovery • Content ID and Takedown Management • Copyright Registration"
           ]
         }
       ]
     },
     {
-      "label": "Awards",
+      "label": "Professional Experience",
       "entries": [
         {
           "items": [
-            "{em}Tempus Egestas{/em} Nibh Vestibulum",
-            "Facilisis: Ultricies Ornare Ligula",
-            "2021"
+            "Art Director | Independent Practice",
+            "Tangier, Morocco | June 2017 – Present",
+            "• Directed visual strategy for Tink's Winter's Diary 5, which debuted #1 on Apple Music R&B Albums and produced a single reaching #11 on Billboard Hot R&B Songs.",
+            "• Directed visual direction for Heat of The Moment, which debuted #1 on Apple Music Top R&B Albums, ranked #1 on Best New Songs (R&B), charted multiple tracks on Apple Music and appeared on a Times Square billboard.",
+            "Impact: Strengthened campaign reach, supported chart performance and contributed to one of Tink's strongest independent releases.",
+            "• Directed visual strategy for A Gift and A Curse, which achieved #1 rankings across Apple Music categories and earned RIAA Gold and Platinum certifications.",
+            "Impact: Supported playlist impact, streaming momentum and catalog visibility.",
+            "• Directed the visual direction for Hopeless Romantic, which reached #1 across Apple Music R&B categories, entered the Top 10 US Apple Music chart and reached #11 on Billboard Independent Albums.",
+            "Impact: Reinforced Tink's independent era and contributed to sustained chart performance.",
+            "• Directed visual presentation for Voicemails, reaching #2 on Apple Music R&B/Soul and entering the Top 10 US Apple Music chart.",
+            "• Directed visual direction for Damien Escobar's Gemini, supporting the Billboard #1 Smooth Jazz Airplay single Taboo.",
+            "Impact: Contributed to Escobar's ongoing commercial success as an Emmy-winning artist.",
+            "• Directed visual strategy for 25 Days of Christmas, which reached #13 on Billboard Classical Crossover Albums.",
+            "• Directed visual strategy for Pain & Pleasure, which reached #6 on Billboard Heatseekers and #19 on Billboard Top R&B Albums.",
+            "• Directed visual direction for releases recognized by AFRIMA, contributing to nominations and a continental award win for Shayfeen, Fnaire, Aminux and VAN.",
+            "Impact: Strengthened regional visibility and continental artistic recognition.",
+            "• Directed visual branding for Jackie Cruz's Lucia Ocho and Hija de Chavez, with coverage in Billboard, TeenVogue, LADYGUNN and EARMILK.",
+            "Impact: Supported her transition into music and elevated visibility across major outlets."
           ]
         },
         {
-          "items": ["{em}Rhoncus Auctor Ornare{/em}; Tincidunt Tristique, Porta Libero", "2020"]
+          "items": [
+            "Music Rights Director | Independent Practice",
+            "Tangier, Morocco | July 2020 – Present",
+            "• Directed publishing, master rights, distribution metadata and royalty structures for VAN, an Order of National Merit recipient.",
+            "Impact: Ensured accurate rights registration, prevented revenue loss and strengthened long-term catalog structure.",
+            "• Executed takedowns of unauthorized uploads across DSPs.",
+            "Impact: Restored ownership and protected royalty revenue.",
+            "• Directed catalog protection for legacy Moroccan artists including Najat Aatabou, through metadata validation and identifier correction.",
+            "Impact: Preserved historic works and expanded catalog accessibility for modern distribution.",
+            "• Corrected duplicate registrations and ownership conflicts across CMOs and PROs, enabling proper royalty activation and reporting.",
+            "• Supported rights setup and catalog readiness for new releases."
+          ]
+        },
+        {
+          "items": [
+            "Founder | 360rights.com",
+            "Tangier, Morocco | March 2025 – Present",
+            "• Designed catalog administration infrastructure based on ISRC, ISWC, DDEX and CWR standards.",
+            "• Developed workflows for metadata validation, identifier accuracy, catalog ingestion and royalty tracking.",
+            "• Assisted artists and rights holders in resolving catalog conflicts and restoring unpaid royalties.",
+            "Impact: Provided rights frameworks comparable to professional systems in underserved markets."
+          ]
+        },
+        {
+          "items": [
+            "Art Director | Paramount Global (Contract)",
+            "Remote | January 2022 – December 2023",
+            "• Directed visual deliverables for Noggin, ensuring consistency with brand requirements across digital and broadcast formats.",
+            "• Coordinated with production and marketing teams for asset delivery and technical compliance.",
+            "Impact: Strengthened content rollout for a global children's media platform."
+          ]
+        },
+        {
+          "items": [
+            "Industry Advisor | L'Boulevard Music Festival",
+            "Rabat, Morocco | September 2024",
+            "• Invited to collaborate with senior industry professionals for the festival's educational program.",
+            "• Contributed to workshop content for communication, copyright and digital distribution.",
+            "• Provided guidance on visual direction, rollout planning, metadata setup and rights management.",
+            "Impact: Enhanced educational resources for emerging artists and improved their preparedness for professional releases."
+          ]
+        },
+        {
+          "items": [
+            "Music Producer | Independent Practice",
+            "Tangier, Morocco | August 2024",
+            "• Produced \"7 (ح)\" for Smallx, achieving millions of streams across DSPs and supporting his progression toward international signing with Mass Appeal.",
+            "Impact: Increased artist visibility and supported measurable commercial growth."
+          ]
         }
       ]
     },
     {
-      "label": "Press",
+      "label": "Certifications & Recognitions",
       "entries": [
         {
           "items": [
-            "'{em}Vestibulum Inceptos Gravida{/em}', Ornare Review,",
-            "by Tincidunt Nisl",
-            "2024"
+            "Berklee Online",
+            "• Music Business Specialization Certificate | December 2025 - May 2025"
           ]
         },
         {
           "items": [
-            "'Ullamcorper Faucibus (Congue) Euismod', by Ligula Parturient, Bibendum Review Porta Libero",
-            "2023"
+            "Recording Industry Association of America",
+            "• Bottom B**** by Tink | Platinum Certification | January 2026",
+            "• CAP by Tink | Gold Certification | December 2024",
+            "• Bottom B**** by Tink | Gold Certification | July 2022",
+            "• Cut It Out by Tink | Gold Certification | June 2022"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Awards & Nominations",
+      "entries": [
+        {
+          "items": [
+            "Nominations | AFRIMA Awards | August 2018",
+            "• Best African DJ – Live Your Dream by VAN",
+            "• Best African Duo – Live Your Dream by VAN & Dub Afrika",
+            "• Best African Group – Siri Siri by Fnaire",
+            "• Best African Electro – Ghanjibo by Aminux"
           ]
         },
         {
-          "items": ["Dictumst Tristique, Facilisis Magazine, Edition Two, Porta Libero", "2021"]
+          "items": [
+            "Winner | AFRIMA Awards | November 2017",
+            "• Best Male Artist in North Africa – Wach Kayn Maydar by Shayfeen"
+          ]
         }
       ]
+    },
+    {
+      "label": "Client Work In Press",
+      "items": [
+        "Billboard • Forbes • The FADER • Pitchfork • COMPLEX • VIBE • REVOLT"
+      ]
+    },
+    {
+      "label": "Press Coverage",
+      "items": ["Akhbarona • Resident • Gigwise"]
+    },
+    {
+      "label": "Education",
+      "items": ["Associate of Arts, Computer Graphics | ISMONTIC (OFPPT)"]
+    },
+    {
+      "label": "Affiliations",
+      "items": [
+        "Author-Composer | SACEM | Neuilly-sur-Seine, France | November 2024",
+        "Professional Artist | Ministry of Youth, Culture and Communication | Rabat, Morocco | March 2022 – Present"
+      ]
+    },
+    {
+      "label": "Languages",
+      "items": ["• Arabic (Native)", "• English (Fluent)", "• French (Fluent)"]
     }
   ]
 }
