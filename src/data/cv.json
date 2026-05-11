@@ -44,7 +44,7 @@
             "Art Director | Independent Practice",
             "Tangier, Morocco | June 2017 - Present",
             "Directed visual campaigns for albums, singles and artist projects across R&B, jazz, pop and North African music.",
-            "Led visual direction for Tink releases including Winter's Diary 5, Heat of The Moment, A Gift and A Curse, Hopeless Romantic and Voicemails, supporting major streaming visibility, playlist placement and chart performance.",
+            "Led visual direction for Tink releases including Heat of The Moment, A Gift and A Curse, Hopeless Romantic and Voicemails, supporting major streaming visibility, playlist placement and chart performance.",
             "Directed visual work for Damien Escobar's Gemini, supporting the Billboard #1 Smooth Jazz Airplay single Taboo.",
             "Created visual direction for campaigns connected to AFRIMA nominations and a continental award win for Shayfeen, Fnaire, Aminux and VAN.",
             "Developed visual branding for Jackie Cruz's Lucia Ocho and Hija de Chavez, with coverage in Billboard, TeenVogue, LADYGUNN and EARMILK."
@@ -65,7 +65,7 @@
       "items": [
         {
           "artist": "Tink",
-          "projects": "Winter's Diary 5, Heat of The Moment, A Gift and A Curse, Hopeless Romantic, Voicemails"
+          "projects": "Heat of The Moment, A Gift and A Curse, Hopeless Romantic, Voicemails"
         },
         {
           "artist": "Damien Escobar",
@@ -96,17 +96,7 @@
     {
       "label": "Skills",
       "items": [
-        [
-          "Art Direction",
-          "Release Strategy",
-          "Album and Single Campaigns",
-          "Visual Identity",
-          "Packaging",
-          "Campaign Deliverable Oversight",
-          "Digital Marketing Assets",
-          "Out-of-Home Visuals",
-          "Cross-Functional Collaboration"
-        ]
+        "Art Direction • Release Strategy • Album and Single Campaigns • Visual Identity • Packaging • Campaign Deliverable Oversight • Cross Functional Collaboration"
       ]
     },
     {
@@ -139,7 +129,20 @@
     },
     {
       "label": "Languages",
-      "items": ["Arabic (Native) • English (Fluent) • French (Fluent)"]
+      "items": [
+        {
+          "language": "Arabic",
+          "level": "Native"
+        },
+        {
+          "language": "English",
+          "level": "Fluent"
+        },
+        {
+          "language": "French",
+          "level": "Fluent"
+        }
+      ]
     }
   ]
 }

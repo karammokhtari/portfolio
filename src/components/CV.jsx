@@ -20,18 +20,6 @@ function CV({ onClose }) {
     const key = `${sectionLabel}-item-${itemIndex}`
 
     if (Array.isArray(item)) {
-      const isSkillList = item.every((skill) => typeof skill === 'string')
-
-      if (isSkillList) {
-        return (
-          <ul key={key} className="cv-skill-list">
-            {item.map((skill) => (
-              <li key={skill}>{skill}</li>
-            ))}
-          </ul>
-        )
-      }
-
       const lineClassName = sectionLabel === 'Profile' ? 'cv-line cv-contact-line' : 'cv-line'
 
       return (
@@ -44,6 +32,15 @@ function CV({ onClose }) {
               </a>
             </span>
           ))}
+        </p>
+      )
+    }
+
+    if (typeof item === 'object' && item.language && item.level) {
+      return (
+        <p key={key} className="cv-language-line">
+          <span className="cv-language-name">{item.language}</span>
+          <span className="cv-language-level">({item.level})</span>
         </p>
       )
     }
