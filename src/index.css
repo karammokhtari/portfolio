@@ -5,7 +5,7 @@
 }
 
 html {
-  --base-size: 18px;
+  --base-size: 9px;
   font-size: var(--base-size);
 }
 
