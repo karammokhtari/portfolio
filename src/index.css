@@ -533,7 +533,7 @@ button:focus-visible {
 }
 
 .cv-meta {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .cv-entry {
@@ -560,6 +560,15 @@ button:focus-visible {
 
 .cv-line:last-child {
   margin-bottom: 0;
+}
+
+.cv-contact-line {
+  margin-bottom: 0.25rem;
+  opacity: 0.45;
+}
+
+.cv-contact-line .cv-text-link {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .cv-text-link {

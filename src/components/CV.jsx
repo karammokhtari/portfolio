@@ -20,8 +20,10 @@ function CV({ onClose }) {
     const key = `${sectionLabel}-item-${itemIndex}`
 
     if (Array.isArray(item)) {
+      const lineClassName = sectionLabel === 'Profile' ? 'cv-line cv-contact-line' : 'cv-line'
+
       return (
-        <p key={key} className="cv-line">
+        <p key={key} className={lineClassName}>
           {item.map((link, linkIndex) => (
             <span key={link.url}>
               {linkIndex > 0 && ' • '}
