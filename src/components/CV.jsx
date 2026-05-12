@@ -2,7 +2,7 @@ import appMetadata from '../data/app.metadata.json'
 import cvData from '../data/cv.json'
 
 function CV({ onClose }) {
-  const stackedSections = new Set(['Skills', 'Languages'])
+  const stackedSections = new Set(['Skills'])
 
   const parseEmphasis = (text) => {
     if (!text) return null
@@ -38,19 +38,19 @@ function CV({ onClose }) {
       )
     }
 
-    if (stackedSections.has(sectionLabel)) {
-      return (
-        <span key={key} className="cv-text-row">
-          {parseEmphasis(item)}
-        </span>
-      )
-    }
-
     if (typeof item === 'object' && item.language && item.level) {
       return (
         <span key={key} className="cv-language-line">
           <span className="cv-language-name">{item.language}</span>
           <span className="cv-language-level">({item.level})</span>
+        </span>
+      )
+    }
+
+    if (stackedSections.has(sectionLabel)) {
+      return (
+        <span key={key} className="cv-text-row">
+          {parseEmphasis(item)}
         </span>
       )
     }
